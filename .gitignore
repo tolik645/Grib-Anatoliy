@@ -23,7 +23,8 @@ bin/
 /nbdist/
 /.nb-gradle/
 .idea
-
+hillel_lesson.iml
+out
 ### VS Code ###
 .vscode/
 
