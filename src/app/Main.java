@@ -14,5 +14,6 @@ public class Main {
         sales = sum/7;
         System.out.println("total sales for 7 days is EUR "+sales);
         System.out.printf("sales by day is EUR %.2f!%n", sales);
+
     }
 }
