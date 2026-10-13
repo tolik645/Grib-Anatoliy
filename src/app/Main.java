@@ -2,7 +2,7 @@ package app;
 
 public class Main {
     public static void main(String[] args){
-    String a = "smartphone";
+        String a = "smartphone";
         System.out.println("Product No 1: "+a);
         double sum = 12153.41;
         double sales = sum/5;
