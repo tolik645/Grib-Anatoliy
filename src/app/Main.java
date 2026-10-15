@@ -13,7 +13,7 @@ public class Main {
             result = sc.nextDouble();
         }
             if (result > 0 & result < 10001) System.out.printf("Сума вашого податку = %.2f%n", result * 0.025);
-            else if (result > 10000 & result < 25001) System.out.printf("Сума вашого податку = %.2f%n", result * 0.043);
-            else if (result > 25000) System.out.printf("Сума вашого податку = %.2f%n", result * 0.067);
+            if (result > 10000 & result < 25001) System.out.printf("Сума вашого податку = %.2f%n", result * 0.043);
+            if (result > 25000) System.out.printf("Сума вашого податку = %.2f%n", result * 0.067);
     }
 }
