@@ -6,13 +6,13 @@ public class Main {
         System.out.println("Product No 1: "+a);
         double sum = 12153.41;
         double sales = sum/5;
-        System.out.println("total sales for 5 days is EUR "+sales);
+        System.out.println("total sales for 5 days is EUR "+sum);
         System.out.printf("sales by day is EUR %.2f!%n", sales);
         a = "laptop";
         System.out.println("Product No 2: "+a);
         sum = 10486.85;
         sales = sum/7;
-        System.out.println("total sales for 7 days is EUR "+sales);
+        System.out.println("total sales for 7 days is EUR "+sum);
         System.out.printf("sales by day is EUR %.2f!%n", sales);
 
     }
