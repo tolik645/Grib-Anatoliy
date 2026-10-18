@@ -8,5 +8,7 @@ public class Main {
             sum = num + sum;
             System.out.println(num+") Num is "+num+", sum is "+sum);
         }
+        System.out.println("-------------");
+        System.out.println("Sum of numbers is "+sum);
     }
 }
