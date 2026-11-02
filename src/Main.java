@@ -1,11 +1,13 @@
+import java.util.Random;
 class Main{
     public static void main(String[] args) {
-        int[][] intArr = {
-                {10, 2, 50, 37},
-                {8, 21, 7, 40},
-                {48, 4, 1, 36},
-                {21, 29, 9, 16}
-        };
+        int[][] intArr = new int[4][4];
+        Random random = new Random();
+        for (int i = 0; i < intArr.length; i++){
+            for (int f = 0; f < intArr[i].length; f++){
+                intArr[i][f] = random.nextInt(50)+1;
+            }
+        }
         System.out.println("Матриця 4х4:");
         for (int i = 0; i < intArr.length; i++){
             for (int f = 0; f < intArr[i].length; f++){
